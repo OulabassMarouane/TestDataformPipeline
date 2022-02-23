@@ -1,0 +1,8 @@
+config {
+  type: "table"
+}
+
+select CURRENT_DATETIME() as current_date
+-- from 
+--   ${ref("table_name")} / schema.table_name
+-- read more about ref() in the documentation tab -->
